@@ -43,9 +43,18 @@ public class Main {
 //        System.out.println(SecondsAndMinutes.getDurationString(65, 45));
 //        System.out.println(SecondsAndMinutes.getDurationString(3945));
 
-        AreaCalculator.area(5.0);
-        AreaCalculator.area (-1);
-        AreaCalculator.area(5.0, 4.0);
-        AreaCalculator.area(-1.0, 4.0);
+//        AreaCalculator.area(5.0);
+//        AreaCalculator.area (-1);
+//        AreaCalculator.area(5.0, 4.0);
+//        AreaCalculator.area(-1.0, 4.0);
+
+//        EqualityPrinter.printEqual(1,1,1);
+//        EqualityPrinter.printEqual(1,1,2);
+//        EqualityPrinter.printEqual(-1,-1,-1);
+//        EqualityPrinter.printEqual(1,2,3);
+
+        PlayingCat.isCatPlaying(true, 10);
+        PlayingCat.isCatPlaying(false, 36);
+        PlayingCat.isCatPlaying(false, 35);
     }
 }
