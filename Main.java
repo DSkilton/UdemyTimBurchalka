@@ -53,8 +53,39 @@ public class Main {
 //        EqualityPrinter.printEqual(-1,-1,-1);
 //        EqualityPrinter.printEqual(1,2,3);
 
-        PlayingCat.isCatPlaying(true, 10);
-        PlayingCat.isCatPlaying(false, 36);
-        PlayingCat.isCatPlaying(false, 35);
+//        PlayingCat.isCatPlaying(true, 10);
+//        PlayingCat.isCatPlaying(false, 36);
+//        PlayingCat.isCatPlaying(false, 35);
+
+//        NumberInWords.printNumberInWord(1);
+//        NumberInWords.printNumberInWord(2);
+//        NumberInWords.printNumberInWord(3);
+//        NumberInWords.printNumberInWord(4);
+//        NumberInWords.printNumberInWord(5);
+//        NumberInWords.printNumberInWord(6);
+//        NumberInWords.printNumberInWord(7);
+//        NumberInWords.printNumberInWord(8);
+//        NumberInWords.printNumberInWord(9);
+//        NumberInWords.printNumberInWord(0);
+
+//        NumberOfDaysInMonth.getDaysInMonth(1, 2020);
+//        NumberOfDaysInMonth.getDaysInMonth(2, 2020);
+//        NumberOfDaysInMonth.getDaysInMonth(2, 2018);
+//        NumberOfDaysInMonth.getDaysInMonth(-1, 2020);
+//        NumberOfDaysInMonth.getDaysInMonth(1, 2020);
+
+//        SumOdd.isOdd(2);
+//        SumOdd.isOdd(3);
+//        SumOdd.isOdd(2,7);
+//        SumOdd.isOdd(1,9);
+
+//        NumberPalindrome.isPalindrome(1221);
+//        NumberPalindrome.isPalindrome(-1221);
+
+        FirstAndLastDigitSum.sumFirstAndLastDigit(252);
+        FirstAndLastDigitSum.sumFirstAndLastDigit(257);
+        FirstAndLastDigitSum.sumFirstAndLastDigit(0);
+        FirstAndLastDigitSum.sumFirstAndLastDigit(5);
+        FirstAndLastDigitSum.sumFirstAndLastDigit(-10);
     }
 }
