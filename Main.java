@@ -82,10 +82,45 @@ public class Main {
 //        NumberPalindrome.isPalindrome(1221);
 //        NumberPalindrome.isPalindrome(-1221);
 
-        FirstAndLastDigitSum.sumFirstAndLastDigit(252);
-        FirstAndLastDigitSum.sumFirstAndLastDigit(257);
-        FirstAndLastDigitSum.sumFirstAndLastDigit(0);
-        FirstAndLastDigitSum.sumFirstAndLastDigit(5);
-        FirstAndLastDigitSum.sumFirstAndLastDigit(-10);
+//        FirstAndLastDigitSum.sumFirstAndLastDigit(252);
+//        FirstAndLastDigitSum.sumFirstAndLastDigit(257);
+//        FirstAndLastDigitSum.sumFirstAndLastDigit(0);
+//        FirstAndLastDigitSum.sumFirstAndLastDigit(5);
+//        FirstAndLastDigitSum.sumFirstAndLastDigit(-10);
+
+//        EvenDigitSum.getEvenDigitSum(123456789);
+//        EvenDigitSum.getEvenDigitSum(252);
+//        EvenDigitSum.getEvenDigitSum(-22);
+
+//        SharedDigit.hasSharedDigit(12, 23);
+//        SharedDigit.hasSharedDigit(9, 99);
+//        SharedDigit.hasSharedDigit(15, 55);
+
+//        hasSameLastDigit.hasSameLastDigit(41,22,71);
+//        hasSameLastDigit.hasSameLastDigit(23, 32, 42);
+//        hasSameLastDigit.hasSameLastDigit(9, 99, 999);
+//
+//        hasSameLastDigit.isValid(10);
+//        hasSameLastDigit.isValid(468);
+//        hasSameLastDigit.isValid(1051);
+
+//        GreatestCommonDevisor.getGreatestCommonDivisor(25, 15);
+//        GreatestCommonDevisor.getGreatestCommonDivisor(12 ,30);
+//        GreatestCommonDevisor.getGreatestCommonDivisor(9, 18);
+//        GreatestCommonDevisor.getGreatestCommonDivisor(81, 153);
+
+//        AllFactors.printFactors(6);
+//        AllFactors.printFactors(32);
+//        AllFactors.printFactors(10);
+//        AllFactors.printFactors(-1);
+
+//        PerfectNumber.isPerfectNumber(6);
+//        PerfectNumber.isPerfectNumber(28);
+//        PerfectNumber.isPerfectNumber(5);
+//        PerfectNumber.isPerfectNumber(-1);
+
+        NumberToWords.numberToWords(123);
+        NumberToWords.reverse(123);
+
     }
 }
