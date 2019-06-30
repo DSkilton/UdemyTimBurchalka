@@ -90,24 +90,30 @@ public class NumberToWords {
     }
 
     public static int reverse(int num){
+        int remainder;
         int newNum = 0;
 
         while(num != 0) {
-            newNum = num % 10;
-            newNum = (newNum*10)+num;
+            remainder = num % 10;
+            newNum = newNum+remainder;
 
-            num /=10;
-            System.out.println(num);
+            newNum *= 10;
+            num /= 10;
         }
 
-
-
-        return -1;
+        newNum /= 10;
+        System.out.println(newNum);
+        return newNum;
     }
 
     public static int getDigitCount(int number){
+        int count = 0;
+        for(int i = number; i > 0; i /= 10){
+            count++;
+        }
 
-        return -1;
+        System.out.println(count);
+        return count;
     }
 
 }

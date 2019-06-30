@@ -119,8 +119,17 @@ public class Main {
 //        PerfectNumber.isPerfectNumber(5);
 //        PerfectNumber.isPerfectNumber(-1);
 
-        NumberToWords.numberToWords(123);
-        NumberToWords.reverse(123);
+//        NumberToWords.numberToWords(123);
+//        NumberToWords.reverse(123);
+//        NumberToWords.getDigitCou
+//        nt(123);
 
+//        FlourPackProblem.canPack(1,0,4);
+//        FlourPackProblem.canPack(1,0,5);
+//        FlourPackProblem.canPack(0,5,4);
+//        FlourPackProblem.canPack(2,2,11);
+//        FlourPackProblem.canPack(-3,2,12);
+
+        
     }
 }
