@@ -1,5 +1,7 @@
 package com.TimBuchalka;
 
+import javax.swing.*;
+
 public class Main {
 
     public static void main(String[] args)
@@ -130,6 +132,8 @@ public class Main {
 //        FlourPackProblem.canPack(2,2,11);
 //        FlourPackProblem.canPack(-3,2,12);
 
-        
+//        DiagonalStar.printSquareStar(50);
+
+        InputCalculator.inputThenPrintSumAndAverage();
     }
 }
