@@ -17,9 +17,9 @@ public class EqualityPrinter {
 
         if((a < 0) || (b < 0) || (c < 0)){
             System.out.println("Invalid Value");
-        } else if((a == b) && (a == c)){
+        } else if(a==b && b==c && c==a){
             System.out.println("All numbers are equal");
-        } else if ((a == b) && (a != c)){
+        } else if((a==b && b!=c)||(b==c && c!=a)||(c==a && a!=b)){
             System.out.println("Neither all are equal or different");
         } else {
             System.out.println("All numbers are different");
