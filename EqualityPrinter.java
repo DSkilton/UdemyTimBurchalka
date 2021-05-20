@@ -19,7 +19,7 @@ public class EqualityPrinter {
             System.out.println("Invalid Value");
         } else if((a == b) && (a == c)){
             System.out.println("All numbers are equal");
-        } else if ((a == b) && (a != c)){
+        } else if ((a == b||(a == c)) || (b==c)){
             System.out.println("Neither all are equal or different");
         } else {
             System.out.println("All numbers are different");
